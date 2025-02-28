@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Groupproject Tailwind</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <!-- ANKITA -->
-    <nav></nav>
-    <header></header>
-    <main>
-      <!-- HATICE -->
-      <section id="features"></section>
-      <!-- LUKAS -->
-      <section id="mission">LUKAS</section>
-    </main>
-    <!-- MANOJ -->
-    <footer></footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Groupproject Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- ANKITA -->
+
+  <header class="p-6 flex justify-between items-center bg-[#392A3F] text-white">
+    <h1 class="text-xl font-bold">Brand</h1>
+    <button class="md:hidden text-white focus:outline-none" id="menu-toggle">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+  </button>
+    <nav class="space-x-6 hidden md:flex " id="menu">
+      <a href="">ABOUT</a>
+      <a href="">SERVICES</a>
+      <a href="">PRODUCTS</a>
+      <a href="">BLOG</a>
+      <a href="">CONTACT</a>
+    </nav>
+    <button class="bg-[#F06FB7] px-3 py-1 rounded-xl hidden md:block">Free Quote</button>
+  </header>
+
+  <section class="p-6 flex flex-col md:flex-row items-center bg-[#392A3F]">
+    <div class="md:w-1/2 mt-10">
+      <h3 class="text-white">WHO WE ARE</h3>
+      <h1 class="mt-2 font-bold text-2xl text-[#F06FB7]">GLOBAL BUSINESS SOLUTION</h1>
+      <P class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fuga eaque atque
+        dolorum vel pariatur voluptatum eos porro,
+        esse adipisci vero ad, nihil vitae cumque repudiandae distinctio. Iste, numquam repudiandae.</P>
+
+ <div class="flex mt-6 bg-[#8567C7] rounded-lg p-4 items-center w-1/2">
+      <div class="px-1">
+        <p class="text-white font-bold ">99.3%</p>
+        <P class="text-white font-bold text-sm">Customer Satisfaction</P>
+      </div>
+      <div class="h-10 w-px bg-white mx-2"></div>
+      <div class="px-1">
+        <P class="text-white font-bold">12 Years</P>
+        <P class="text-white font-bold text-sm">Work Experience</P>
+        </div>
+    </div>
+    <button class="mt-6 bg-[#F06FB7] px-3 py-1 rounded-xl text-white">Get a Quote</button>
+  </div>
+  <div class="md:w-1/2 flex justify-center mt-6 md:mt-0">
+      <img src="https://www.immerse.education/wp-content/uploads/2021/10/Article-Images-1-1-scaled-1.png" alt="Business image" class="rounded-full w-80 h-80 object-cover border-1 border-black">
+  </div>
+
+    
+    
+  </section>
+  <main>
+    <!-- HATICE -->
+    <section id="features"></section>
+    <!-- LUKAS -->
+    <section id="mission"></section>
+  </main>
+  <!-- MANOJ -->
+  <footer></footer>
+</body>
+
 </html>
